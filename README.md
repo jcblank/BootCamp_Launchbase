@@ -22,11 +22,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#-desafios">Sobre os desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
 
 ## 🚀 Desafios
 
