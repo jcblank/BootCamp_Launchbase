@@ -2,6 +2,16 @@
     <img alt="Launchbase" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-launchbase.png" width="250px" />
 </h1>
 
+<h2 align="center">
+    O que é?
+</h2>
+<h3 align="center">
+O LaunchBase é um treinamento no formato de bootcamp
+online. A cada semana os conteúdos são liberados de acordo com um cronograma,
+guiando o aluno pelas ferramentas e conceitos mais
+modernos de desenvolvimento.
+</h3>
+
 <h3 align="center">
   Desafios: Introdução à programação
 </h3>
