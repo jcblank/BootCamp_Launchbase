@@ -37,8 +37,8 @@ modernos de desenvolvimento.
 
 - [Primeiros passos com JavaScript](01-1-primeiros-passos-com-js.md)
     - Respostas
-        -[Cálculo IMC](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/calcula_imc.js)
-        -[Aposentadoria](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/aposentadoria.js)
+        - [Cálculo IMC](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/calcula_imc.js)
+        - [Aposentadoria](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/aposentadoria.js)
 - [Lidando com objetos e vetores](01-2-lidando-com-objetos-e-vetores.md)
 - [Funções e estruturas de repetição](01-3-funcoes-e-estruturas-de-repeticao.md)
 - [Aplicação: Operações bancárias](01-4-aplicacao-operacoes-bancarias.md)
