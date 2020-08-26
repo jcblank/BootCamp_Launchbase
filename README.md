@@ -54,6 +54,7 @@
 
 
 Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
+
 ------------------------------------------------------------------------------------
 
 <!-- Português -->
