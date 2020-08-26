@@ -3,7 +3,7 @@
 :us:
 
 <h1 align="center">
-    <img alt="Launchbase" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-launchbase.png" width="250px" />
+    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h1>
 
 <h2 align="center">
@@ -19,21 +19,19 @@ development models using different languages.
 <blockquote align="center">“Your only limitation is yourself”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-launchbase-desafios-01?color=%23F7DF1E">
 
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F7DF1E">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F7DF1E">
-
-  <a href="https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-launchbase-desafios-01?style=social">
+  <a href="LICENSE" >
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
+
 </p>
 
 
-## 🚀 Challenges - Introduction to programming
+## 🚀 Challenges module 1 - Introduction to programming
 
 - [Getting started with JavaScript](01-1-primeiros-passos-com-js.md)
     - Answers
@@ -56,7 +54,7 @@ Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/
 <br>
 <br>
 <h1 align="center">
-    <img alt="Launchbase" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-launchbase.png" width="250px" />
+    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h1>
 
 <h2 align="center">
@@ -72,21 +70,19 @@ modernos de desenvolvimento utilizando diferentes linguagens.
 <blockquote align="center">“Sua única limitação é você mesmo”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-launchbase-desafios-01?color=%23F7DF1E">
 
   <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F7DF1E">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F7DF1E">
-
-  <a href="https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-launchbase-desafios-01?style=social">
+  <a href="LICENSE" >
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
+
 </p>
 
 
-## 🚀 Desafios - Introdução a programação
+## 🚀 Desafios Módulo 1 - Introdução a Programação WEB
 
 - [Primeiros passos com JavaScript](01-1-primeiros-passos-com-js.md)
     - Respostas
