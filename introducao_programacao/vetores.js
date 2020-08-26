@@ -1,4 +1,4 @@
-
+.
 // Criar programa para calcular a média
 // das duas turmas e verificar qual é a maior
 
@@ -14,6 +14,10 @@ const turmaA = [
     {
         nome: "Antonio",
         nota: 8.6
+    },
+    {
+        nome: "Antônio",
+        nota: 9.4
     }
 ]
 
