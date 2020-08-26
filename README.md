@@ -12,10 +12,6 @@ guiando o aluno pelas ferramentas e conceitos mais
 modernos de desenvolvimento utilizando diferentes linguagens.
 </h3>
 
-<h3 align="center">
-  Desafios: Introdução à programação
-</h3>
-
 <blockquote align="center">“Sua única limitação é você mesmo”!</blockquote>
 
 <p align="center">
@@ -33,7 +29,7 @@ modernos de desenvolvimento utilizando diferentes linguagens.
 </p>
 
 
-## 🚀 Desafios
+## 🚀 Desafios - Introdução a programação
 
 - [Primeiros passos com JavaScript](01-1-primeiros-passos-com-js.md)
     - Respostas
@@ -44,8 +40,9 @@ modernos de desenvolvimento utilizando diferentes linguagens.
         - [Construção e impressão de objetos](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/objetos_vetores.js)
         - [Vetores e objetos](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/objetos_vetores2.js)
 - [Funções e estruturas de repetição](01-3-funcoes-e-estruturas-de-repeticao.md)
+    - Respostas
 - [Aplicação: Operações bancárias](01-4-aplicacao-operacoes-bancarias.md)
-
+    - Respostas
 
 
 Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
