@@ -9,7 +9,7 @@
 O LaunchBase é um treinamento no formato de bootcamp
 online. A cada semana os conteúdos são liberados de acordo com um cronograma,
 guiando o aluno pelas ferramentas e conceitos mais
-modernos de desenvolvimento.
+modernos de desenvolvimento utilizando diferentes linguagens.
 </h3>
 
 <h3 align="center">
