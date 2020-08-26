@@ -5,7 +5,7 @@
 
 :us:
 
-<p>eng</p> 
+## eng 
 
 <h1 align="center">
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
@@ -37,8 +37,6 @@
 
 ------------------------------------------------------------------------------------
 
-## pt-br
-
 ## 🚀 Challenges module 1 - Introduction to programming
 
 - [Getting started with JavaScript](01-1-primeiros-passos-com-js.md)
@@ -59,6 +57,7 @@ Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/
 
 
 <!-- Português -->
+## pt-br
 <br>
 <br>
 <h1 align="center">
