@@ -102,6 +102,7 @@ Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/
         - [Vetores e objetos](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/objetos_vetores2.js)
 - [Funções e estruturas de repetição](01-3-funcoes-e-estruturas-de-repeticao.md)
     - Respostas
+        - [Usuários e tecnologias](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/usuarios_tecnologias.js)
 - [Aplicação: Operações bancárias](01-4-aplicacao-operacoes-bancarias.md)
     - Respostas
 
