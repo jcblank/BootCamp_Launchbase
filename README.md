@@ -49,6 +49,7 @@
         - [Vectors and objects](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/objetos_vetores2.js)
 - [Repeating functions and structures](01-3-funcoes-e-estruturas-de-repeticao.md)
     - Answers
+        - [Users and technology](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/usuarios_tecnologias.js)
 - [Application: Banking](01-4-aplicacao-operacoes-bancarias.md)
     - Answers
 
