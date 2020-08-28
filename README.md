@@ -1,6 +1,6 @@
-<a href="#pt-br">PT-BR</a>
+<a href="#pt-br">pt-br</a>
 <br>
-<a href="#eng">ENG</a>
+<a href="#eng">end</a>
 <!-- Inglês -->
 
 :us:
