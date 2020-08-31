@@ -50,6 +50,7 @@
 - [Repeating functions and structures](01-3-funcoes-e-estruturas-de-repeticao.md)
     - Answers
         - [Users and technology](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/usuarios_tecnologias.js)
+        - [Search for technology](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/busca_tecnologia.js)
 - [Application: Banking](01-4-aplicacao-operacoes-bancarias.md)
     - Answers
 
@@ -104,6 +105,7 @@ Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/
 - [Funções e estruturas de repetição](01-3-funcoes-e-estruturas-de-repeticao.md)
     - Respostas
         - [Usuários e tecnologias](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/usuarios_tecnologias.js)
+        - [Buscar tecnologia](https://github.com/jcblank/BootCamp_Launchbase/blob/master/introducao_programacao/busca_tecnologia.js)
 - [Aplicação: Operações bancárias](01-4-aplicacao-operacoes-bancarias.md)
     - Respostas
 
