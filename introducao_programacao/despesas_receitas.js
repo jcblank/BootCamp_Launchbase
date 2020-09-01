@@ -4,7 +4,7 @@
 
 const usuarios = [
     {
-      nome: "Salvio",
+      nome: "Savio",
       receitas: [115.3, 48.7, 98.3, 14.5],
       despesas: [85.3, 13.5, 19.9]
     },
