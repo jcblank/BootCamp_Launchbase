@@ -60,7 +60,8 @@
 
 ## 🚀 Challenges module 2 - Introduction to Front-end
 
-Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/invite/gCRAFhc)
+  - [Portfolio](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
+
 
 ------------------------------------------------------------------------------------
 
@@ -120,6 +121,6 @@ Made with ♥ by Rocketseat :wave: [Join our community!](https://discordapp.com/
 
 ## 🚀 Desafios Módulo 2 - Introdução ao Front-end
 
-
+- [Portfólio](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
 
 Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
