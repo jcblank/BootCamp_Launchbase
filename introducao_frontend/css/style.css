@@ -55,7 +55,6 @@ header {
 
 .text h1,h2,p {
     text-align:center;
-    color: white;
     font-family: sans-serif;
     line-height: 20px;
 }
@@ -63,11 +62,29 @@ header {
 .text h1 {
     font-size: 1.9rem;
     margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.9);
+    text-shadow: 1px 1px #50fa7b;
 }
 
 .text h2 {
     font-size: 1.2rem;
     margin-bottom: 5px;
+    color: white;
+}
+
+.text h2 a {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.text h2 a:hover {
+    color: purple;
+    transition: color 200ms;
+}
+
+.text p {
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .links-footer {
