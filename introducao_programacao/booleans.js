@@ -1,6 +1,6 @@
-.
-// Criar programa para calcular a média
-// das duas turmas e verificar qual é a maior
+// Programa para marcar aluno como
+// reprovado caso a nota seja menor que 5
+// enviar uma mensagem caso estej reprovado.
 
 const turmaA = [
     {
@@ -9,7 +9,7 @@ const turmaA = [
     },
     {
         nome: "Maria",
-        nota: 9.8
+        nota: 4
     },
     {
         nome: "Antonio",
@@ -56,18 +56,38 @@ function mensagem(media, turma) {
     }
 
 }
+
+// Função para marcar o aluno como reprovado
+// caso a média dele seja menor que 5.
+function marcarComoReprovado(aluno) {
+    aluno.reprovado = false;
+    if(aluno.nota < 5) {
+        aluno.reprovado = true;
+    }
+}
+
+// Função para enviar mensagem caso o 
+// aluno esteja reprovado
+function enviarMensagemReprovado(aluno) {
+    if(aluno.reprovado) {
+        console.log(`O aluno ${aluno.nome}, da turma está reprovado!`)
+    }
+}
+
+// For passando por todos os alunos,
+// depois chama as funções marcarComoReprovado
+// e enviarMensagemReprovado.
+function alunosReprovado(alunos) {
+    for(let aluno of alunos) {
+        marcarComoReprovado(aluno);
+        enviarMensagemReprovado(aluno);
+    }
+}
+
 // Chamando a função e passando a mensagem.
 mensagem(media1, 'TurmaA')
 mensagem(media2, 'TurmaB')
 
-function marcarComoReprovado(alunos) {
-    for(let aluno of alunos) {
-        aluno.reprovado = false;
-        if(aluno.nota < 5) {
-            aluno.reprovado = true;
-        }
-    }
-    console.table(alunos)
-}
-
-marcarComoReprovado(turmaA)
+// Executar a função alunosReprovados.
+alunosReprovado(turmaA);
+alunosReprovado(turmaB);

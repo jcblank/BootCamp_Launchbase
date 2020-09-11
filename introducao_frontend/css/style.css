@@ -1,0 +1,155 @@
+/*Variáveis*/
+
+:root{
+    --color-bg: #282a36;
+    --color-green: #50fa7b;
+    --color-border: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    list-style: none;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+header {
+    padding: 32px;
+    border-bottom: solid var(--color-border);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.links ul li a {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 26px;
+    margin: 0 16px;
+    font-family: sans-serif;
+}
+
+.links ul li a:hover {
+    color: black;
+    transition: color 200ms;
+    text-shadow: 1px 1px var(--color-green);
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.img-profile {
+    border-radius: 50%;
+    box-shadow: 8px 5px rgba(0, 0, 0, 0.6);
+    height: 300px;
+}
+
+.text {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.text h1,h2,p {
+    text-align:center;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin-left: 50px;
+}
+
+.text h1 {
+    padding: 15px;
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 2px 4px black;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.text h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.text h2 a {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.text h2 a:hover {
+    color: purple;
+    transition: color 200ms;
+}
+
+.text p {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+.redes-sociais {
+    border-top: 1px solid var(--color-border);
+    font-size: 1.2rem;  
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.redes-sociais img {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.redes-sociais ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;    
+}
+
+.footer {
+    padding: 32px;
+    margin-top: 100px;
+    border-top: solid var(--color-border);
+    background: rgba(0, 0, 0, 0.1);      
+}
+
+.links-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+}
+
+.links-footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-family: sans-serif;
+    font-size: 1.4rem;      
+}
+
+.links-footer ul li a:hover {
+    color: black;
+    transition: color 200ms;
+    text-shadow: 1px 1px var(--color-green);
+}
