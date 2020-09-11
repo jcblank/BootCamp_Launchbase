@@ -56,6 +56,9 @@ function mensagem(media, turma) {
     }
 
 }
+// Chamando a função e passando a mensagem.
+mensagem(media1, 'TurmaA')
+mensagem(media2, 'TurmaB')
 
 // Função para marcar o aluno como reprovado
 // caso a média dele seja menor que 5.
@@ -74,20 +77,16 @@ function enviarMensagemReprovado(aluno) {
     }
 }
 
-// For passando por todos os alunos,
+// For passando por todos os alunos e 
 // depois chama as funções marcarComoReprovado
 // e enviarMensagemReprovado.
-function alunosReprovado(alunos) {
+function alunoReprovado(alunos) {
     for(let aluno of alunos) {
         marcarComoReprovado(aluno);
         enviarMensagemReprovado(aluno);
     }
 }
 
-// Chamando a função e passando a mensagem.
-mensagem(media1, 'TurmaA')
-mensagem(media2, 'TurmaB')
-
-// Executar a função alunosReprovados.
-alunosReprovado(turmaA);
-alunosReprovado(turmaB);
+// Executar a função alunoReprovado.
+alunoReprovado(turmaA);
+alunoReprovado(turmaB);
