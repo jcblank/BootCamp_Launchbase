@@ -1,10 +1,11 @@
 /*Variáveis*/
-
 :root{
     --color-bg: #282a36;
-    --color-green: #50fa7b;
+    --color-green: #386944;
     --color-border: #333;
 }
+/* =====================*/
+
 
 * {
     margin: 0;
@@ -24,16 +25,18 @@ body {
     background: var(--color-bg);
 }
 
-header {
+.links {
     padding: 32px;
     border-bottom: solid var(--color-border);
     background: rgba(0, 0, 0, 0.1);
 }
 
-.links {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
+.links ul {
+    text-align: center;
+}
+
+.links ul li {
+    display: inline-block;
 }
 
 .links ul li a {
@@ -59,7 +62,7 @@ header {
 
 .img-profile {
     border-radius: 50%;
-    box-shadow: 8px 5px rgba(0, 0, 0, 0.6);
+    border: groove 8px rgba(0, 0, 0, 0.4);
     height: 300px;
 }
 
@@ -72,6 +75,7 @@ header {
     font-family: sans-serif;
     line-height: 20px;
     margin-left: 50px;
+    margin-top: 10px;
 }
 
 .text h1 {
