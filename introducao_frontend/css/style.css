@@ -66,11 +66,11 @@ body {
     height: 300px;
 }
 
-.text {
+.text-prog {
     border-bottom: 1px solid var(--color-border);
 }
 
-.text h1,h2,p {
+.text-prog {
     text-align:center;
     font-family: sans-serif;
     line-height: 20px;
@@ -78,7 +78,7 @@ body {
     margin-top: 10px;
 }
 
-.text h1 {
+.text-prog h1 {
     padding: 15px;
     font-size: 1.9rem;
     margin-bottom: 15px;
@@ -87,23 +87,23 @@ body {
     border-bottom: 1px solid var(--color-border);
 }
 
-.text h2 {
+.text-prog h2 {
     font-size: 1.2rem;
     margin-bottom: 5px;
     color: white;
 }
 
-.text h2 a {
+.text-prog h2 a {
     color: white;
     text-shadow: 1px 1px black;
 }
 
-.text h2 a:hover {
+.text-prog h2 a:hover {
     color: purple;
     transition: color 200ms;
 }
 
-.text p {
+.text-prog p {
     color: white;
     text-shadow: 1px 1px black;
 }
