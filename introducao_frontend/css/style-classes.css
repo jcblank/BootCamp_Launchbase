@@ -1,0 +1,12 @@
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #7159c1;
+}
+
+.card-img-container img {
+    width: 100%;
+}
