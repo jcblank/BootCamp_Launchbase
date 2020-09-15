@@ -6,7 +6,6 @@
 
 .container img {
     border-radius: 50%;
-    margin: 50px 0;
     height: 200px;
     margin: 0 50px;
 }
@@ -54,7 +53,7 @@
 }
 
 .tecnologias ul li {
-    box-shadow: rgb(94, 2, 94) 5px 2px;
+    box-shadow: rgb(2, 0, 2) 5px 2px;
     font-size: 1.4rem;
     text-align: center;
     color: white;
@@ -62,7 +61,7 @@
     font-weight: bold;
     border: 1px solid;
     margin: 5px;
-    background-color: rgb(57, 2, 160);
+    background-color: var(--color-rocket);
     padding: 25px;
     text-shadow: black 4px 2px;
 }
@@ -91,5 +90,5 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 25px;    
+    gap: 25px;  
 }
