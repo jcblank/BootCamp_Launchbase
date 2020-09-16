@@ -1,0 +1,43 @@
+h1 {
+    margin: 100px 0;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.content-cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.content-card {
+    background-color: var(--color-rocket);
+    text-align: center;
+    
+}
+
+
+.content-card p,h1,h2 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.content-card, .content-card-info {
+    padding: 20px;
+}
+
+.card-content {
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.content-card-price {
+    background-color: var(--color-rocket);
+    filter: brightness(80%);
+    margin-top: 10px;
+}
