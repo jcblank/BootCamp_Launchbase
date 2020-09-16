@@ -3,8 +3,6 @@
 <a href="#eng">end</a>
 <!-- Inglês -->
 
-:us:
-
 ## eng 
 
 <h1 align="center">
@@ -60,9 +58,8 @@
 
 ## 🚀 Challenges module 2 - Introduction to Front-end
 
-  - [Arquivos](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
-  
-    https://jcblank.github.io/BootCamp_Launchbase/introducao_frontend/
+  - [Files](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
+    - [Acess website](https://jcblank.github.io/BootCamp_Launchbase/introducao_frontend/)
 
 
 ------------------------------------------------------------------------------------
@@ -123,6 +120,7 @@
 
 ## 🚀 Desafios Módulo 2 - Introdução ao Front-end
 
-- [Portfólio](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
+- [Arquivos](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
+  - [Acessar website](https://jcblank.github.io/BootCamp_Launchbase/introducao_frontend/)
 
 Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
