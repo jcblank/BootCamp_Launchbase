@@ -58,9 +58,8 @@ body {
 }
 
 .links ul li a:hover {
-    color: black;
+    color: var(--color-rocket);
     transition: color 200ms;
-    text-shadow: 1px 1px var(--color-green);
 }
 
 #wrapper {
@@ -163,9 +162,8 @@ body {
 }
 
 .links-footer ul li a:hover {
-    color: black;
     transition: color 200ms;
-    text-shadow: 1px 1px var(--color-green);
+    color: var(--color-rocket);
 }
 
 .main {
