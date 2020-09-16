@@ -6,17 +6,17 @@ h1 {
 }
 
 .content-cards {
-    max-width: 800px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 25px;
+    margin: 0 50px;
 }
 
 .content-card {
-    background-color: var(--color-rocket);
+    background-color: rgb(31, 30, 30);
     text-align: center;
-    
+    padding: 40px 20px;
+    border: 2px solid var(--color-border);
 }
 
 
@@ -24,20 +24,28 @@ h1 {
     color: white;
     font-family: sans-serif;
     text-align: center;
+    margin-top: 30px;
 }
 
-.content-card, .content-card-info {
-    padding: 20px;
+.content-card-logo { 
+    max-height: 120px;
 }
+
 
 .card-content {
-    padding: 10px;
-    justify-self: center;
-    align-self: center;
+    margin: 40px;
+}
+
+.card-content p:first-child {
+    font-weight: bold;
 }
 
 .content-card-price {
     background-color: var(--color-rocket);
-    filter: brightness(80%);
-    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    text-shadow: black 2px 1px;
+    border: 1px solid var(--color-border);
 }

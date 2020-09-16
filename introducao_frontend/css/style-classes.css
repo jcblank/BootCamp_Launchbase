@@ -1,5 +1,5 @@
 .cards {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,11 +8,13 @@
 
 .card {
     background-color: var(--color-rocket);
+    cursor: pointer;
 }
 
 .card p,h1,h2 {
     color: white;
     font-family: sans-serif;
+    font-weight: bold;
 }
 
 .card-img-container img {
