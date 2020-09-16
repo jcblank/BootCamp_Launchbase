@@ -60,7 +60,9 @@
 
 ## 🚀 Challenges module 2 - Introduction to Front-end
 
-  - [Portfolio](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
+  - [Arquivos](https://github.com/jcblank/BootCamp_Launchbase/tree/master/introducao_frontend)
+  
+    https://jcblank.github.io/BootCamp_Launchbase/introducao_frontend/
 
 
 ------------------------------------------------------------------------------------
