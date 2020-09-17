@@ -5,22 +5,23 @@ h1 {
     text-align: center;
 }
 
-.content-cards {
+.contents {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
     margin: 0 50px;
 }
 
-.content-card {
+.content {
     background-color: rgb(31, 30, 30);
     text-align: center;
     padding: 40px 20px;
     border: 2px solid var(--color-border);
+    cursor: pointer;
 }
 
 
-.content-card p,h1,h2 {
+.content p,h1,h2 {
     color: white;
     font-family: sans-serif;
     text-align: center;
@@ -48,4 +49,51 @@ h1 {
     font-weight: bold;
     text-shadow: black 2px 1px;
     border: 1px solid var(--color-border);
+}
+
+/* Modal */
+.modal-mid {
+    background-color: rgba(0,0,0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal-inner {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal-inner .modal-close {
+    color: black;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.modal-inner .modal-maximize {
+    color: black;
+    position: absolute;
+    right: 35px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.modal-mid.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
 }
