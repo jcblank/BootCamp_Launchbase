@@ -1,15 +1,15 @@
-h1 {
-    margin: 100px 0;
+.titulo {
     color: white;
     font-family: sans-serif;
     text-align: center;
+    margin: 55px;
 }
 
 .contents {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
-    margin: 0 50px;
+    margin: 0 50px 50px;
 }
 
 .content {
@@ -24,11 +24,12 @@ h1 {
 .content p,h1,h2 {
     color: white;
     font-family: sans-serif;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .content-card-logo {
     max-width: 500px;
+    margin: 0 auto;
 }
 
 .content-card-logo img { 
@@ -67,9 +68,9 @@ h1 {
 
 .inner {
     background-color: white;
-    width: 70%;
-    height: 70%;
-    margin: 5vh auto;
+    width: 75%;
+    height: 75%;
+    margin: 15vh auto;
     position: relative;
 }
 

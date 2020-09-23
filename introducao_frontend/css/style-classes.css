@@ -1,6 +1,13 @@
+.titulo {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 55px;
+}
+
 .cards {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
