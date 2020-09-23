@@ -24,7 +24,6 @@ h1 {
 .content p,h1,h2 {
     color: white;
     font-family: sans-serif;
-    text-align: center;
     margin-top: 30px;
 }
 
@@ -38,7 +37,7 @@ h1 {
 
 
 .card-content {
-    margin: 40px;
+    margin: 80px;
 }
 
 .card-content p:first-child {
@@ -66,15 +65,15 @@ h1 {
     visibility: hidden;
 }
 
-.modal-inner {
+.inner {
     background-color: white;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
     margin: 5vh auto;
     position: relative;
 }
 
-.modal-inner .modal-close {
+.inner .modal-close {
     color: black;
     position: absolute;
     right: 5px;
@@ -82,7 +81,7 @@ h1 {
     cursor: pointer;
 }
 
-.modal-inner .modal-maximize {
+.inner .modal-maximize {
     color: black;
     position: absolute;
     right: 35px;
@@ -93,6 +92,22 @@ h1 {
 .modal-mid.active {
     opacity: 1;
     visibility: visible;
+}
+
+.inner.maximize {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.inner.maximize .modal-close {
+    right: 35px;
+    top: 15px;
+}
+
+.inner.maximize .modal-maximize {
+    right: 65px;
+    top: 15px;
 }
 
 iframe {
