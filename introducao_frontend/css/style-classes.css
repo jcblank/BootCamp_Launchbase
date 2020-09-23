@@ -72,6 +72,11 @@
     cursor: pointer;
 }
 
+.close-modal:hover {
+    color: var(--color-rocket);
+    transition: color 300ms;
+}
+
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;

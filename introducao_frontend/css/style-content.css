@@ -77,16 +77,16 @@
 .inner .modal-close {
     color: black;
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 25px;
+    top: 15px;
     cursor: pointer;
 }
 
 .inner .modal-maximize {
     color: black;
     position: absolute;
-    right: 35px;
-    top: 5px;
+    right: 55px;
+    top: 15px;
     cursor: pointer;
 }
 
@@ -109,6 +109,11 @@
 .inner.maximize .modal-maximize {
     right: 65px;
     top: 15px;
+}
+
+.modal-close:hover, .modal-maximize:hover {
+    color: var(--color-rocket);
+    transition: color 300ms;
 }
 
 iframe {
