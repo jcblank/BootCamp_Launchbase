@@ -11,6 +11,7 @@ const modalInner = document.querySelector('.inner');
 function modal (close,remove) { 
     document.querySelector(close).addEventListener("click", function() {
         remove.classList.remove("active") 
+        modalOverlay.querySelector("iframe").src = '';
     })
 };
 
