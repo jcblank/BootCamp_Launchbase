@@ -63,6 +63,7 @@
 
   - [Building Foodfy](https://github.com/jcblank/bootcamp-launchbase-desafios-02/blob/master/desafios/01-foodfy.md)
     - [Files](https://github.com/jcblank/BootCamp_Launchbase/tree/master/foodfy)
+  - [My Foodfy](https://jcblank.github.io/BootCamp_Launchbase/foodfy/)
 ------------------------------------------------------------------------------------
 
 <!-- Português -->
@@ -126,6 +127,7 @@
 
 - [Construindo o Foodfy](https://github.com/jcblank/bootcamp-launchbase-desafios-02/blob/master/desafios/01-foodfy.md)
   - [Files](https://github.com/jcblank/BootCamp_Launchbase/tree/master/foodfy)
+- [Meu Foodfy](https://jcblank.github.io/BootCamp_Launchbase/foodfy/)
 ---------------------------------------------------------------------------------
 
 Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
