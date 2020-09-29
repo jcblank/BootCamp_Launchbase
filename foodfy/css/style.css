@@ -21,7 +21,7 @@ body {
 
 
 .mid {
-    max-width: 960px;
+    max-width: 940px;
     margin: 0 auto;
 }
 /* Menu */
@@ -101,7 +101,7 @@ body {
 .card {
     position: relative;
     overflow: hidden;
-
+    cursor: pointer;
 }
 
 .card:hover img {
