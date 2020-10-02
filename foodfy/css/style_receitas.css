@@ -14,16 +14,13 @@
 
 .modal {
     background-color: white;
-    width: 50%;
-    height: 50%;
-    margin: 25vh auto;
+    margin: auto;
     position: relative;
-    border: 3px  rgb(165, 165, 165);
-    border-radius: 20px;
+    box-shadow: 2px 2px #f5deb3b6;
 }
 
 .modal .close-modal {
-    color: black;
+    color: white;
     position: absolute;
     right: 15px;
     top: 10px;
@@ -31,30 +28,29 @@
 }
 
 .close-modal:hover {
-    color: var(--color-rocket);
+    color: #f5deb3b6;
     transition: color 300ms;
 }
 
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
-}
-
-.modal-content {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: column;
-    
+}
+
+.modal-content {
+    background-color: black;
+    padding: 50px;
+    text-align: center;
 }
 
 .modal-content img {
-    border: 3px solid rgb(165, 165, 165);
-    justify-self: center;
-    align-self: center;
-    border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
+    box-shadow: 2px 2px #f5deb3b6;
+    max-width: 120%;
+    border-radius: 2px;
 }
 
 .modal-content h2 {
@@ -67,4 +63,5 @@
 
 .modal-content h2,p {
     text-align: center;
+    color: white;
 }
