@@ -1,0 +1,121 @@
+{% extends "layouts.html" %}
+
+
+{% block head %}
+
+<title>Portfolio - João Carlos</title>
+<link rel="stylesheet" href="/style_portfolio.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+        <main>
+            <div class="titulo">
+                <h1>Aulas</h1>
+            </div>
+            <section class="cards">
+                <div class="card" id="2alg7MQ6_sI">
+                    <div class="card-img-container">
+                        <img src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg" alt="video aula">
+                    </div>
+                    <div class="card-content">
+                        <p>Git na prática</p>
+                    </div>
+                    <div class="card-info">
+                        <p>57 min</p>
+                        <p class="card-price">free</p>
+                    </div>
+                </div>
+
+                <div class="card" id="-j7vLmBMsEU">
+                    <div class="card-img-container">
+                        <img src="https://img.youtube.com/vi/-j7vLmBMsEU/maxresdefault.jpg" alt="video aula">
+                    </div>
+                    <div class="card-content">
+                        <p>Deploy de uma applicação na prática</p>
+                    </div>
+                    <div class="card-info">
+                        <p>35 min</p>
+                        <p class="card-price">R$29,90</p>
+                    </div>
+                </div>
+
+                <div class="card" id="BN_8bCfVp88">
+                    <div class="card-img-container">
+                        <img src="https://img.youtube.com/vi/BN_8bCfVp88/maxresdefault.jpg" alt="video aula">
+                    </div>
+                    <div class="card-content">
+                        <p>[API NodeJS + Express + Mongo] Estrutura e cadastro</p>
+                    </div>
+                    <div class="card-info">
+                        <p>20 horas</p>
+                        <p class="card-price">R$139,90</p>
+                    </div>
+                </div>
+
+                <div class="card" id="sYe4r8WXGQg">
+                    <div class="card-img-container">
+                        <img src="https://img.youtube.com/vi/sYe4r8WXGQg/maxresdefault.jpg" alt="video aula">
+                    </div>
+                    <div class="card-content">
+                        <p>Controlando autenticação em rotas no ReactJS</p>
+                    </div>
+                    <div class="card-info">
+                        <p>57 min</p>
+                        <p class="card-price">free</p>
+                    </div>
+                </div>
+
+                <div class="card" id="GykTLqODQuU">
+                    <div class="card-img-container">
+                        <img src="https://img.youtube.com/vi/GykTLqODQuU/maxresdefault.jpg" alt="video aula">
+                    </div>
+                    <div class="card-content">
+                        <p>Formulário Animado com JS puro e CSS</p>
+                    </div>
+                    <div class="card-info">
+                        <p>57 min</p>
+                        <p class="card-price">free</p>
+                    </div>
+                </div>
+
+                <div class="card" id="rAzHvYnQ8DY">
+                    <div class="card-img-container">
+                        <img src="https://img.youtube.com/vi/rAzHvYnQ8DY/maxresdefault.jpg" alt="video aula">
+                    </div>
+                    <div class="card-content">
+                        <p>Array: Higher Order Functions</p>
+                    </div>
+                    <div class="card-info">
+                        <p>57 min</p>
+                        <p class="card-price">free</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="modal-overlay">
+                <div class="modal">
+                    <a class="close-modal">
+                        <i class="material-icons">close</i>
+                    </a>
+                    <div class="modal-content">
+                        <iframe src="" frameborder="0"></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="links-footer">
+                <ul>
+                    <li>
+                        <a href="https://discordapp.com/invite/gCRAFhc">Comunidade</a>
+                        <a href="mailto:oi@rocketseat.com.br">E-mail</a>
+                        <a href="tel:+5547992078767">Telefone</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="/scripts.js" async defer></script>
+   {% endblock %}
