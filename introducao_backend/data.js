@@ -27,7 +27,7 @@ module.exports = [
         id: "GykTLqODQuU",
         title: "Formulário Animado com JS puro e CSS",
         duration: "57 min",
-        price: "free"
+        price: "R$ 20,00"
     },
     {
         id: "rAzHvYnQ8DY",
