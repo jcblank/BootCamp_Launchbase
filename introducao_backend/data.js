@@ -21,7 +21,7 @@ module.exports = [
         id: "sYe4r8WXGQg",
         title: "Controlando autenticação em rotas no ReactJS",
         duration: "57 min",
-        price: "free"
+        price: "R$ 55,00"
     },
     {
         id: "GykTLqODQuU",
