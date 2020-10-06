@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="portfolio">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style.css">
+        
+        {% block head %}
+            <title>João Carlos</title>
+        {% endblock %}
+        
+    </head>
+    <body>
+        <header>
+            <ul>
+                <div class="links">
+                    <ul>
+                        <li>
+                            <a href="/">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="/portfolio">Aulas</a>
+                        </li>
+                    </ul>
+                </div>
+            </ul>
+        </header> 
+        
+        {% block content %}{% endblock %}
+
+    </body>
+</html>
