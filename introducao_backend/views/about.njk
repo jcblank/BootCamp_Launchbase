@@ -1,4 +1,4 @@
-{% extends "layouts.html" %}
+{% extends "layouts.njk" %}
 
 {% block head %}
     <title>Sobre</title>
@@ -7,23 +7,19 @@
 {% block content %}
     <main class="main">
         <div id="wrapper">
-            <img class="img-profile" src="https://avatars0.githubusercontent.com/u/31256868?s=460&u=0e646356c7ff79142e5a27b8f55db927ad9d1925&v=4" alt="João Carlos">
+            <img class="img-profile" src="{{about.avatar_url}}" alt="Imagem de {{about.name}}">
             <div class="text-prog">
-                <h1>João Carlos Blankenheim Rodrigues</h1>
-                <h2>Estudante desenvolvimento web na <a href="https://app.rocketseat.com.br/dashboard" alt="rocketseat" target="blank">Rocketseat</a></h2>
-                <p>Stack: HTML,CSS,JS</p>
+                <h1>{{about.name}}</h1>
+                <h2>{{about.role}}</h2>
+                <p>{{about.stack}}</p>
             </div>
             <div class="redes-sociais">
                 <ul>
+                {% for link in about.links %}
                     <li>
-                        <a href="https://github.com/jcblank" target="blank"><img src="/img/Octocat.png"></a>
+                        <a href="{{ link.url }}" target="{{ link.name }}"></a>
                     </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/jcarbr/" target="blank"><img src="/img/linkedin.png"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/jcarlos.blank" target="blank"><img src="/img/face.png"></a>
-                    </li>
+                {% endfor %}
                 </ul>
             </div>
     </div>

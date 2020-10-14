@@ -16,6 +16,7 @@
 .card {
     background-color: var(--color-rocket);
     cursor: pointer;
+    display: grid;
 }
 
 .card p,h1,h2 {
@@ -34,6 +35,7 @@
 
 .card-info {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr;
 }
 
