@@ -17,12 +17,12 @@
                 <ul>
                 {% for link in about.links %}
                     <li>
-                        <a href="{{ link.url }}" target="{{ link.name }}"></a>
+                        <a href="{{ link.url }}" target="{{ link.name }}">{{ link.name }}</a>
                     </li>
                 {% endfor %}
                 </ul>
             </div>
-    </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="links-footer">
