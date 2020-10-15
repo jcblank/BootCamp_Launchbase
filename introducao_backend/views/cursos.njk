@@ -1,0 +1,43 @@
+{% extends "layouts.njk" %}
+
+{% block head %}
+    <title>Cursos</title>
+    <link rel="stylesheet" href="/style-sobre.css">
+    <link rel="stylesheet" href="/style.css">
+{% endblock %}
+
+{% block content %}      
+        <main>
+            <div class="container">
+                <img src="{{ text.logo }}">
+                <div class="text-rocket">
+                    <p>{{text.texto}}</p>
+                </div>
+            </div>
+           
+            <div class="tecnologias">
+                
+                <h2>Tecnologias</h2>
+                <ul>
+                    {% for language in tec.languages %}
+                        <li>{{language.lang}}</li>
+                    {% endfor%}
+                    
+                </ul>
+            </div>
+            <div class="rocket-redes">
+                <h2>Redes sociais</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/jcblank" target="blank"><img src="img/Octocat.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/jcarbr/" target="blank"><img src="img/linkedin.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/jcarlos.blank" target="blank"><img src="img/face.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+       {% endblock %}
