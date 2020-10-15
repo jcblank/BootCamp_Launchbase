@@ -20,9 +20,9 @@ server.get("/", function(req, res) {
         role: 'Estudante desenvolvimento web na <a href="https://app.rocketseat.com.br/dashboard" alt="rocketseat" target="blank">Rocketseat</a>',
         stack: "Stack: HTML,CSS,JS",
         links: [
-            {name: "github", url: "https://github.com/jcblank"},
-            {name: "linkedin", url: "https://www.linkedin.com/in/jcarbr/"},
-            {name: "facebook", url: "https://www.facebook.com/jcarlos.blank"},
+            {name: "Github", url: "https://github.com/jcblank", img:"img/Octocat.png"},
+            {name: "Linkedin", url: "https://www.linkedin.com/in/jcarbr/", img:"img/linkedin.png"},
+            {name: "Facebook", url: "https://www.facebook.com/jcarlos.blank", img:"img/face.png"},
 
         ]
     }
@@ -32,6 +32,29 @@ server.get("/", function(req, res) {
 
 server.get("/portfolio", function(req, res) {
     return res.render("portfolio", { items: videos })
+})
+
+server.get("/cursos", function(req, res) {
+    const text = {
+        texto: "Mais do que uma plataforma de educação em tecnologia, somos uma comunidade incrível de programadores em busca do próximo nível 🚀  Em um mundo onde a informação fica obsoleta cada vez mais rápido, velocidade de aprendizado é a chave para o sucesso. Por isso a Rocketseat oferece através de uma plataforma inteligente e metodologia prática, além de comunidade, eventos, conteúdo e conexão com o mercado de trabalho, todas as ferramentas que você precisa para masterizar no menor tempo possível as tecnologias mais modernas de desenvolvimento web e mobile, e dessa forma avançar para o próximo nível como programador.",
+        logo: "img/rocketseat.png"
+    };
+    
+    const tec =  {
+        title: "Tecnologias",
+        languages: [
+            {lang: "CSS3"},
+            {lang: "Html5"},
+            {lang: "Javascript"},
+            {lang: "Dotnet"},
+            {lang: "NodeJS"},
+            {lang: "Bootstrap"},
+            {lang: "Java"},
+            {lang: "C#"},
+            {lang: "MySQL"},
+        ]
+}
+    return res.render("cursos", {tec, text})
 })
 
 server.listen(5000, function() {
