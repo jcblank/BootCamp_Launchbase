@@ -123,10 +123,10 @@ body {
     padding: 10px;
 }
 
-.redes-sociais li a {
-    color: white;
-    justify-content: center;
-    align-content: center;
+.redes-sociais img {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 5px;
 }
 
 .redes-sociais li {
@@ -139,6 +139,8 @@ body {
     align-content: center;
     gap: 25px;    
 }
+
+
 
 .footer {
     padding: 32px;
