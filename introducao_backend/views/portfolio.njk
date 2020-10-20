@@ -18,8 +18,11 @@
               
                 {% for item in items %}
                 <div class="card" id="{{ item.id }}">
-                    <div class="card-img-container">
+                    <div class="card-img-container {{ 'featured-wrapper' if item.featured }}" >
                         <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="Imagem de {{item.title}}">
+                        {% if item.featured %}
+                            <div class="featured">Featured</div>
+                        {% endif %}
                     </div>
                     <div class="card-content">
                         <p>{{item.title}}</p>
@@ -44,16 +47,4 @@
                 </div>
             </div>
         </main>
-        <footer class="footer">
-            <div class="links-footer">
-                <ul>
-                    <li>
-                        <a href="https://discordapp.com/invite/gCRAFhc">Comunidade</a>
-                        <a href="mailto:oi@rocketseat.com.br">E-mail</a>
-                        <a href="tel:+5547992078767">Telefone</a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-        <script src="/scripts.js" async defer></script>
    {% endblock %}
