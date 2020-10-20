@@ -10,7 +10,8 @@ server.set("view engine", "njk")
 
 nunjucks.configure("views", {
     express: server,
-    autoescape: false
+    autoescape: false,
+    noCache: true
 })
 
 server.get("/", function(req, res) {
@@ -33,6 +34,12 @@ server.get("/", function(req, res) {
 server.get("/portfolio", function(req, res) {
     return res.render("portfolio", { items: videos })
 })
+
+server.get("/video", function(req,res) {
+    const id = req.query.id
+    res.send(id)
+})
+
 
 server.get("/cursos", function(req, res) {
     const text = {
@@ -57,6 +64,6 @@ server.get("/cursos", function(req, res) {
     return res.render("cursos", {tec, text})
 })
 
-server.listen(5000, function() {
+server.listen(5500, function() {
     console.log("Server is running")
 })
