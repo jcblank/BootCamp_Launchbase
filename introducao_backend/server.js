@@ -51,6 +51,9 @@ server.get("/video", function(req,res) {
     return res.render("video", {item: video})
 })
 
+server.get("/content", function(req,res) {
+    return res.render("content")
+})
 
 server.get("/cursos", function(req, res) {
     const text = {
@@ -75,6 +78,6 @@ server.get("/cursos", function(req, res) {
     return res.render("cursos", {tec, text})
 })
 
-server.listen(5500, function() {
+server.listen(5000, function() {
     console.log("Server is running")
 })
