@@ -17,23 +17,11 @@
                 <ul>
                 {% for link in about.links %}
                     <li>
-                        <a href="{{ link.url }}" target="{{ link.name }}">{{ link.name }}</a>
+                        <a href="{{ link.url }}" target="blank" alt="{{ link.name }}"><img src="{{ link.img }}"></a>
                     </li>
                 {% endfor %}
                 </ul>
             </div>
         </div>
     </main>
-    <footer class="footer">
-        <div class="links-footer">
-            <ul>
-                <li>
-                    <a href="https://discordapp.com/invite/gCRAFhc" target="blank">Comunidade</a>
-                    <a href="mailto:oi@rocketseat.com.br">E-mail</a>
-                    <a href="tel:+5547992078767" target="blank">Telefone</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-
 {% endblock %}

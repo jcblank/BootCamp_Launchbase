@@ -3,7 +3,8 @@ module.exports = [
         id: "2alg7MQ6_sI",
         title: "Git na prática",
         duration: "57 min",
-        price: "free"
+        price: "free",
+        featured: true
     },
     {
         id: "-j7vLmBMsEU",
@@ -21,7 +22,8 @@ module.exports = [
         id: "sYe4r8WXGQg",
         title: "Controlando autenticação em rotas no ReactJS",
         duration: "57 min",
-        price: "R$ 55,00"
+        price: "R$ 55,00",
+        featured: true
     },
     {
         id: "GykTLqODQuU",
@@ -33,6 +35,7 @@ module.exports = [
         id: "rAzHvYnQ8DY",
         title: "Array: Higher Order Functions",
         duration: "57 min",
-        price: "free"
+        price: "free",
+        featured: true
     }
 ]
