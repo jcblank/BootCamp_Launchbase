@@ -1,0 +1,35 @@
+{% extends "layouts.njk" %}
+
+{% block head %}
+    <title>Cursos</title>
+    <link rel="stylesheet" href="/style-sobre.css">
+    <link rel="stylesheet" href="/style.css">
+{% endblock %}
+
+{% block content %}      
+        <main>
+
+            <div class="titulo">
+            <h1>Cursos</h1>
+        </div>
+
+           <section class="contents">
+               {% for content in contents %}
+               <div class="content" id="{{ content.id }}">    
+                    <div class="content-card-logo">
+                        <img src="{{ content.img_course }}" alt="Imagem do curso {{ content.title }}">
+                    </div>
+                    <div class="card-content">
+                       <p  class="content-card-price">{{ content.title }}</p> 
+                       <p>R$ {{ content.price }}</p>
+                       <p>Autor: {{ content.autor}} <p>
+                    </div>
+                    <div class="content-card-info">
+                       <p>Duração: {{ content.read_time }}</p>
+                    </div>
+               </div>
+               {% endfor %}
+            </section>
+
+        
+       {% endblock %}
