@@ -3,6 +3,7 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 const videos = require("./data")
+const cursos = require("./data2")
 
 server.use(express.static('public'))
 
@@ -51,9 +52,7 @@ server.get("/video", function(req,res) {
     return res.render("video", {item: video})
 })
 
-server.get("/content", function(req,res) {
-    return res.render("content")
-})
+
 
 server.get("/cursos", function(req, res) {
     const text = {
@@ -75,8 +74,12 @@ server.get("/cursos", function(req, res) {
             {lang: "MySQL"},
         ]
 }
-    return res.render("cursos", {tec, text})
+
+
+
+    return res.render("cursos", {tec, text, contents: cursos})
 })
+
 
 server.listen(5000, function() {
     console.log("Server is running")

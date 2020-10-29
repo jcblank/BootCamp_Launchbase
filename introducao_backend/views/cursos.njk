@@ -14,61 +14,22 @@
         </div>
 
            <section class="contents">
-               <div class="content" id="axios-um-cliente-http-full-stack">    
-                <div class="content-card-logo">
-                        <img src="https://blog.rocketseat.com.br/content/images/2020/09/axios-um-cliente-http-full-stack-rocketseat.png" alt="Logo curso starter">
+               {% for content in contents %}
+               <div class="content" id="{{ content.id }}">    
+                    <div class="content-card-logo">
+                        <img src="{{ content.img_course }}" alt="Imagem do curso {{ content.title }}">
                     </div>
                     <div class="card-content">
-                       <p  class="content-card-price">Axios</p>
+                       <p  class="content-card-price">{{ content.title }}</p> 
+                       <p>R$ {{ content.price }}</p>
+                       <p>Autor: {{ content.autor}} <p>
                     </div>
                     <div class="content-card-info">
-                       <p>Autor: Célia Golden</p>
-                       <p>Tempo de leitura: 5 minutos</p>
+                       <p>Duração: {{ content.read_time }}</p>
                     </div>
                </div>
-               <div class="content"  id="es09-novas-features-no-javascript" >
-                   <div class="content-card-logo">
-                        <img src="https://blog.rocketseat.com.br/content/images/2020/08/es08-novas-features-no-javascript.png" alt="Logo curso starter">
-                   </div>
-                   <div class="card-content">
-                        <p  class="content-card-price">Features do novo javascript</p>
-                   </div>
-                   <div class="content-card-info">
-                        <p>Autor: Patrick Maia</p>
-                        <p>Tempo de leitura: 7 minutos</p>
-                    </div>
-                </div>
-                
-                <div class="content" id="recoil-biblioteca-de-gerenciamento-de-estados-no-react">
-                    <div class="content-card-logo">
-                        <img src="https://blog.rocketseat.com.br/content/images/2020/07/recoil-biblioteca-de-gerenciamento-de-estados-no-react.png" alt="Logo curso starter">
-                    </div>
-                    <div class="card-content">
-                        <p class="content-card-price">Estados do React</p>
-                    </div>
-                    <div class="content-card-info">
-                        <p>Autor: Mario Bonaventura</p>
-                        <p>Tempo de leitura: 15 minutos</p>
-                    </div>
-                </div>
+               {% endfor %}
             </section>
-
-            <div class="modal-mid">
-                <div class="inner">
-                    <a class="modal-close">
-                        <i class="material-icons">close</i>
-                    </a>
-                    <a class="modal-maximize">
-                        <i class="material-icons">aspect_ratio</i>
-                    </a>
-                    <div class="content-modal">
-                        <iframe src="" frameborder="0"></iframe>
-                    </div>
-                </div>
-
-            </div>
-
-
 
             <div class="container">
                 <img src="{{ text.logo }}">
