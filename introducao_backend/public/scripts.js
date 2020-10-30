@@ -15,7 +15,7 @@ for (let card of cards) {
 for (let content of contents) {
     content.addEventListener("click", function() {
         const cursoId = content.getAttribute("id");
-        window.location.href = `/curso?id=${cursoId}`
+        window.location.href = `/cursos/${cursoId}`
     })
     
 };
