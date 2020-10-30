@@ -52,8 +52,6 @@ server.get("/video", function(req,res) {
     return res.render("video", {item: video})
 })
 
-
-
 server.get("/cursos", function(req, res) {
     const text = {
         texto: "Mais do que uma plataforma de educação em tecnologia, somos uma comunidade incrível de programadores em busca do próximo nível 🚀  Em um mundo onde a informação fica obsoleta cada vez mais rápido, velocidade de aprendizado é a chave para o sucesso. Por isso a Rocketseat oferece através de uma plataforma inteligente e metodologia prática, além de comunidade, eventos, conteúdo e conexão com o mercado de trabalho, todas as ferramentas que você precisa para masterizar no menor tempo possível as tecnologias mais modernas de desenvolvimento web e mobile, e dessa forma avançar para o próximo nível como programador.",
@@ -75,11 +73,27 @@ server.get("/cursos", function(req, res) {
         ]
 }
 
-
-
     return res.render("cursos", {tec, text, contents: cursos})
 })
 
+server.get("/cursos:id", function(req, res) {
+    const id = req.params.id
+    
+    return res.send(`O id fornecido na rota é: ${id}`);
+
+    const curso = cursos.find(function(curso){
+        if (curso.id == id) {
+            return true;
+        }
+        
+    })
+
+    if (!curso) {
+        return res.send("Video not found!")
+    }
+    
+    return res.render("content/", {contents}); 
+});
 
 server.listen(5000, function() {
     console.log("Server is running")
